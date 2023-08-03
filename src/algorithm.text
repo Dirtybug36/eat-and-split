@@ -1,0 +1,11 @@
+1. list of friends with select button
+2. when selected the split component is displayed
+3.in split component there are 2 inputs and one select option
+4. { bill value: --; (input)
+your expenses: --; (input)
+friends(selected): --; (result)
+who is paying the bill(option: you/selected friend); (input)
+splitBill(button):--; (display)
+}
+
+according to the bill, if you pay more, it shows on 1. and vice versa
