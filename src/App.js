@@ -50,10 +50,9 @@ function List({ image, name }) {
 function Form() {
   return (
     <form className="form-add-friend">
-      <p>Friend name</p>
-
+      <p>🧑‍🤝‍🧑Friend name</p>
       <input />
-      <p>image URL</p>
+      <label>📸Image URL</label>
       <input />
       <button className="button">Add</button>
     </form>
@@ -65,18 +64,18 @@ function Bill() {
     <form className="form-split-bill">
       <h2>Split the bill with friends</h2>
 
-      <p>Bill value</p>
+      <label>💰Bill value</label>
       <input />
-      <p>Your expenses</p>
+      <label>🤦‍♂️Your expenses</label>
       <input />
-      <p>Friends expense</p>
+      <label>😁Friends expense</label>
       <p></p>
-      <p>Who is paying the bill?</p>
+      <label>🫡Who is paying the bill?</label>
       <select>
         <option>You</option>
         <option>Friend</option>
       </select>
-      <button className="button">Split bill</button>
+      <button className="button">Split</button>
     </form>
   );
 }
