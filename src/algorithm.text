@@ -8,4 +8,3 @@ who is paying the bill(option: you/selected friend); (input)
 splitBill(button):--; (display)
 }
 
-according to the bill, if you pay more, it shows on 1. and vice versa
