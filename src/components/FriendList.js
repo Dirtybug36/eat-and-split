@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export function FriendList({ friend, onHandleFriendsData }) {
+export default function FriendList({ friend, onHandleFriendsData }) {
   return (
     <ul className="sidebar">
       <li>
